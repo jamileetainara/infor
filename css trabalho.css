@@ -1,0 +1,199 @@
+ 
+#sla{
+	border-radius: 10px;
+	height:120px;
+	width:120px;
+}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content: space-evenly;
+	padding-right: 30px;
+}
+main{
+	padding-left:10px;
+	padding-right: 10px;
+	background-color:green;
+	color:white;
+}
+#L{
+	text-decoration:none;
+	font-size:24px;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#um{
+	padding-left:550px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#dois{
+	padding-left:270px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#três{
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#saude{
+	width:100%;
+	height:600px;
+}
+@media only screen and (max-width:600px){
+	body{
+		font-size:15px;
+	}
+	img{
+		height:300px;
+		width:300px;
+	}
+}
+#grid{
+	background-color: green;
+	color:white;
+}
+.grid-container {
+	font-size:10px;
+	display:grid;
+	grid-template-rows: repeat(12,90px)
+	grid-template-columns:20px;
+	
+}
+.grid-item-1{
+	border-style:solid;
+	padding-top:10px;
+	grid-row:1/1;
+}
+.grid-item-2{
+	border-style:solid;
+	padding-top:10px;
+	grid-row:1/2;
+}
+.grid-item-3{
+	border-style:solid;
+	padding-top:10px;
+	grid-row:1/2;
+}
+.grid-item-4{
+	border-style:solid;
+	padding-top:10px;
+	grid-row:2/1;
+}
+
+.grid-item-5{
+	border-style:solid;
+	padding-top:10px;
+	grid-row:2/2;
+}
+
+.grid-item-6{
+	border-style:solid;
+	padding-top:10px;
+	grid-row:3/3;
+	height:170px;
+}
+
+.grid-item-7{
+	border-left-width: 1px;
+	border-style:solid;
+	padding-top:10px;
+	grid-row:3/4;
+}
+
+.grid-item-8{
+	border-left-width: 1px;
+	border-style:solid;
+	padding-top:10px;
+	grid-row:3/5;
+	height:200px;
+}
+.grid-item-9{
+	border-left-width: 1px;
+	border-style:solid;
+	padding-top:10px;
+	grid-row:3/6;
+	height:120px;
+}
+/*SEGUNDA PÁGINA*/
+
+#casa{
+	background-color:forestgreen;
+	padding-left: 10px;
+	padding-right: 10px;
+    
+}
+#indi{
+ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+#ca{
+	color:white;
+	padding-right:80px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#dor{
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size:25px;
+}
+#outro{
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size:25px;
+}
+#deal{
+	font-size:18px;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+#deal:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:white;
+}
+#din{
+	font-size:18px;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+#din:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:white;
+}
+/*FORMULÁRIO*/
+form{
+	background-color: rgb(194, 200, 194);
+	color:black;
+	height:740px;
+	width:400px;
+	padding-top: 60px;
+	margin-left:500px ;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+#Tay{
+	margin-left:90px;
+}
+#in{
+	margin-left: 60px;
+	font-size:18px;
+}
+#diferente{
+	background-image:linear-gradient(to bottom, #696969,#DCDCDC,white);
+
+}
+
+footer{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#créditos{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
